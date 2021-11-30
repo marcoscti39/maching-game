@@ -3,3 +3,10 @@
     color: white;
     font-size: 10px;
 }
+.board-game{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
