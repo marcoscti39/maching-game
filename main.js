@@ -3,6 +3,7 @@ import "./src/styles/generic/reset.css"
 import "./src/styles/elements/base.css"
 import BoardGame from "./src/objects/BoardGame"
 import ScoreBoard from "./src/objects/ScoreBoard"
+import CardFrontBack from "./src/components/CardFrontBack"
 
 
 

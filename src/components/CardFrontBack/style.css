@@ -1,0 +1,23 @@
+.card-sides{
+    width: 130px;
+    height: 160px;
+    box-sizing: border-box;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 400ms ease-in-out;
+}
+.card-sides.-active{
+    transform: rotateY(180deg);
+}
+.card-sides > .card{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.card-sides > .card.-back{
+    transform: rotateY(180deg);
+}
+.card-sides > .card.-back .card-game{
+    background-color: var(--color-fiery-rose);
+}
+
+
