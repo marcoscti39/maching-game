@@ -1,1 +1,30 @@
+.border-points{
+    display: flex;
+    box-sizing: border-box;
+    height: 20px;
+    width: 50px;
+    background-color: var(--color-floral-white);
+    border: 2px solid var(--color-floral-white);
+    gap: 1px;
+
+}
+.border-points > .point{
+    background-color: var(--color-old-silver);
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 33%;
+
+}
+.border-points[data-points="1"] > .point:first-child{
+    background-color: var(--color-mantis);
+}
+.border-points[data-points="2"]{
+    flex-direction: row-reverse;
+}
+.border-points[data-points="2"] > .point:nth-child(n+2){
+    background-color: var(--color-mantis);
+}
+.border-points[data-points="3"] > .point{
+    background-color: var(--color-mantis);
+}
 
