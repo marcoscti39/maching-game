@@ -1,8 +1,8 @@
 import "./style.css"
-function ArrowDown(currentPlayer = 1){
+function ArrowDown(currentplayer = 1){
     return /*html*/`
     <img class="arrow-down"
-     data-currentPlayer = "${currentPlayer}"
+     data-currentplayer = "${currentplayer}"
      src="images/ArrowDown.png"
      alt="indica vez do jogador">
     `
